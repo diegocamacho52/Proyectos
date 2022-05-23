@@ -22,8 +22,8 @@ def bingo():
         G=[]
         O=[]
         condicion=True
-        print("\t\t\t\t\t\t╭┓┏╮┏━━━━━┓╭┓┏╮\n\t\t\t\t\t\t┃┃┃┃┃▔╲╳╱▔┃┃┃┃┃\n\t\t\t\t\t\t┃┗┛┃╰╮▋▂▆╭╯┃┗┛┃\n\t\t\t\t\t\t╰┳┳╯╭┛▕▂▏┗╮╰┳┳╯\n\t\t\t\t\t\t╭╯┃╱┃▇▅▃▆▉┃╳┃╰╮\n\t\t\t\t\t\t┣╭╯╳┃┏┈┈┈┓┃╱╰╮┫\n\t\t\t\t\t\t┣╰━━┫┊╋▇╳┊┣━━╯┫\n\t\t\t\t\t\t╰┻┻┻┫┗┈┈┈┛┣┻┻┻╯")
-        print("\t\t\t\t\t\t Bingo juego")
+        print("\t\t\t╭┓┏╮┏━━━━━┓╭┓┏╮\n\t\t\t┃┃┃┃┃▔╲╳╱▔┃┃┃┃┃\n\t\t\t┃┗┛┃╰╮▋▂▆╭╯┃┗┛┃\n\t\t\t╰┳┳╯╭┛▕▂▏┗╮╰┳┳╯\n\t\t\t╭╯┃╱┃▇▅▃▆▉┃╳┃╰╮\n\t\t\t┣╭╯╳┃┏┈┈┈┓┃╱╰╮┫\n\t\t\t┣╰━━┫┊╋▇╳┊┣━━╯┫\n\t\t\t╰┻┻┻┫┗┈┈┈┛┣┻┻┻╯")
+        print("\t\t\t Bingo juego")
         print()
         for allnum in range(1,16):
             B_list.append(allnum)
@@ -911,3 +911,4 @@ def portada():
     time.sleep(2)
     menu()
 portada()
+
