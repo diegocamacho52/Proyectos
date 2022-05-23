@@ -481,7 +481,7 @@ def millonario():
 
 
         print("A) Cardo \nB) Rosa \nC) Puerro \nD) Trebol\nE) Retirarte")
-        print("")
+        print()
         print("Deseas retirarte?")
         pregunta_5=input("¿Qué planta es el símbolo nacional de Irlanda? --> ").lower()
 
@@ -604,7 +604,7 @@ def millonario():
 
 
         print("A) Calico Jack \nB) Barbanegra \nC) Bartholomew Roberts \nD) Capitán Kidd\nE) Retirarst ")
-        print("")
+        print()
         print("Deseas retirarte?")
         pregunta_10=input("¿En 1718, ¿qué pirata murió en una batalla en la costa del lugar ahora conocido como Carolina del Norte? --> ").lower()
 
@@ -861,6 +861,8 @@ def millonario():
 
         if pregunta_20=="d":  
             print("Correcto")
+            print()
+            print('Has ganado $', recom)
         else:
             m_error()
             time.sleep(2)
@@ -903,7 +905,7 @@ def portada():
    
     print('')
    
-    print('▒█▒▒▒█▒█▀▒█▒▒█▀▒█▀█▒█▀█▀█▒█▀▒\n▒█▒▒▒█▒█▀▒█▒▒█▀▒█▀█▒█▀█▀█▒█▀▒\n▒█▒█▒█▒█▀▒█▒▒█▒▒█▒█▒█▒█▒█▒█▀▒\n▒█▄█▄█▒██▒█▄▒█▄▒█▄█▒█▒█▒█▒██▒')
+    print('▒█▒▒▒█▒█▀▒█▒▒█▀▒█▀█▒█▀█▀█▒█▀▒\n▒█▒█▒█▒█▀▒█▒▒█▒▒█▒█▒█▒█▒█▒█▀▒\n▒█▄█▄█▒██▒█▄▒█▄▒█▄█▒█▒█▒█▒██▒')
     time.sleep(3)
     os.system('cls')
     time.sleep(2)
