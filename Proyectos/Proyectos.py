@@ -4,8 +4,7 @@ os.system('cls')
 
 
 
-def bingo():
-    
+def bingo():   
 
         from os import sep
         allnum=[]
@@ -204,8 +203,9 @@ def bingo():
                 print()
                 input("presione la tecla enter para continuar..")
                 print()
-            elif draw=='N':
-                condicion=False
+            elif draw=="N":
+                print()
+            
 
             draw2=input("¿Quieres poner otro bingo?(Y/N)")
             draw2=draw2.capitalize()
@@ -233,7 +233,9 @@ def bingo():
                 for allnum in range(61,76):
                     O_list.append(allnum)
                 print("O=>",O_list,sep=",")
-                print()             
+                print() 
+            if  draw2 =="N":
+                condicion=False             
 
 def caja():
     productos=[
@@ -874,7 +876,7 @@ def m_error():
 
 def menu():
     condicion=True
-    while True:
+    while condicion==True:
         try:
             os.system("cls")
             print("-- Proyectos -- \n")
@@ -903,7 +905,7 @@ def menu():
 def portada():
     print('⠄⠄⠄⠄⠄⠄⢴⡶⣶⣶⣶⡒⣶⣶⣖⠢⡄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⢠⣿⣋⣿⣿⣉⣿⣿⣯⣧⡰⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⣿⣿⣹⣿⣿⣏⣿⣿⡗⣿⣿⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⠟⡛⣉⣭⣭⣭⠌⠛⡻⢿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⠄⠄⣤⡌⣿⣷⣯⣭⣿⡆⣈⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⠄⢻⣿⣿⣿⣿⣿⣿⣿⣷⢛⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⠄⠄⢻⣷⣽⣿⣿⣿⢿⠃⣼⣧⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⣛⣻⣿⠟⣀⡜⣻⢿⣿⣿⣶⣤⡀⠄⠄⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⠄⠄⢠⣤⣀⣨⣥⣾⢟⣧⣿⠸⣿⣿⣿⣿⣿⣤⡀⠄⠄⠄\n⠄⠄⠄⠄⠄⠄⠄⠄⢟⣫⣯⡻⣋⣵⣟⡼⣛⠴⣫⣭⣽⣿⣷⣭⡻⣦⡀⠄\n⠄⠄⠄⠄⠄⠄⠄⢰⣿⣿⣿⢏⣽⣿⢋⣾⡟⢺⣿⣿⣿⣿⣿⣿⣷⢹⣷⠄\n⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⢣⣿⣿⣿⢸⣿⡇⣾⣿⠏⠉⣿⣿⣿⡇⣿⣿⡆\n⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⢸⣿⣿⣿⠸⣿⡇⣿⣿⡆⣼⣿⣿⣿⡇⣿⣿⡇\n⠇⢀⠄⠄⠄⠄⠄⠘⣿⣿⡘⣿⣿⣷⢀⣿⣷⣿⣿⡿⠿⢿⣿⣿⡇⣩⣿⡇\n⣿⣿⠃⠄⠄⠄⠄⠄⠄⢻⣷⠙⠛⠋⣿⣿⣿⣿⣿⣷⣶⣿⣿⣿⡇⣿⣿⡇')
    
-    print('')
+    print()
    
     print('▒█▒▒▒█▒█▀▒█▒▒█▀▒█▀█▒█▀█▀█▒█▀▒\n▒█▒█▒█▒█▀▒█▒▒█▒▒█▒█▒█▒█▒█▒█▀▒\n▒█▄█▄█▒██▒█▄▒█▄▒█▄█▒█▒█▒█▒██▒')
     time.sleep(3)
